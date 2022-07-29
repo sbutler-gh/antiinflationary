@@ -65,7 +65,7 @@
 
 <div style="text-align: center;">
 <h1>Anti-inflationary US</h1>
-<p>The best policies for reversing inflation, lowering the federal deficit, and saving taxpayers money.</p>
+<p>The best policies for reversing inflation, balancing the federal books, and saving Americans money.</p>
 </div>
 
 <section class="policies">
@@ -78,7 +78,7 @@
   <p>⚡ For the same amount of batteries that go in a single electric truck sold for $70,000, we could produce +250 electric bikes sold for $1,000,000.</p>
   <p>Sources of data:</p>
   <ul>
-    <li>The average cost of owning a car is $9,666 per year, including car payments, insurance, gas, gas taxes, parking, maintenance, and other costs. (https://www.nerdwallet.com/article/loans/auto-loans/total-cost-owning-car)
+    <li>The average cost of owning a car is <a href="https://www.nerdwallet.com/article/loans/auto-loans/total-cost-owning-car">$9,666 per year</a>, including car payments, insurance, gas, gas taxes, parking, maintenance, and other costs. (https://www.nerdwallet.com/article/loans/auto-loans/total-cost-owning-car)
       <ul>
         <li>Across 130 million commuters in the USA, that costs us $1,300,000,000,000 per year.</li>
       </ul>
@@ -119,8 +119,8 @@
 <div class="policy">
   <h2>Clean Electricity Performance Plan</h2>
   <p>Give money to utilities who increase renewable energy capacity, and fine utilities who fail to do so.</p>
-  <h3>For every <span class="invested">$1 invested</span>, the clean electricity performance plan returns <span class="returns">$2.4 in savings (tax revenue + electricicty savings)</span>.</h3>
-  <h3>For every <span class="invested">$1 invested</span>, the clean electricity performance plan injects <span class="returns">$6 into the U.S. economy</span>.</h3>
+  <h3>For every <span class="invested">$1 invested</span>, the clean electricity performance plan returns <span class="returns">$2.4 in savings</span>.</h3>
+  <h3>For every <span class="invested">$1 invested</span>, the clean electricity performance plan generates <span class="returns">$6 of economic value</span>.</h3>
   <p>Investing $<input type="number" style="width: 40px" bind:value={cepp_investment}>
     <select bind:value={cepp_investment_unit}><option value={1000000000} selected disabled>billion</option></select> into a Clean Electricity Performance Plan generates <span class="returns">${(cepp_investment * 2.4 * cepp_investment_unit).toLocaleString()} in savings</span>.</p>
   <p>⚡ The CEPP is the best way to rapidly reduce emissions reductions, in line with our IPCC goals for 2030.</p>
@@ -156,6 +156,11 @@
 </div>
 
 <h3><em>More coming soon ...</em></h3>
+<p>Have policies to add?  Want to edit data?</p>
+  <p><a href="https://docs.google.com/document/d/1w_QEqDER7GEi8Q8rOy1_RiOuT-iDZ7w20zgDESm8HSs/edit?usp=sharing">Add policies, edits, and suggestions</a>.</p>
+  <hr>
+  <p><a href="https://twitter.com/sambutlerUS">Twitter</p>
+    <p>antiinflationary@sambutler.us</p>
 </section>
 
 <style>
